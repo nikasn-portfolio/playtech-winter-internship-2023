@@ -2,9 +2,8 @@
 
 ## Description
 
-This is a simple application that processes bets and calculates winnings.
-Process two files with transactions and matches and calculate winnings for each user.
-Aggregated winnings are stored in a file.
+This is a simple application that processes user transactions in betting system.
+Process two files with transactions and matches and calculate remaining balance and win-rate for each user.
 
 ## Sample input
 
@@ -60,7 +59,9 @@ result.txt
 
 75
 ```
-
+Three groups of lines are separated by an empty line. 
+The first group is the legit player data, second is first illegal transaction done by player
+ and the last line is active balance of casino
 # Author
 
 `Fullname : Nikita Kašnikov`
